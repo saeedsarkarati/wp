@@ -1,0 +1,30 @@
+update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/cups/doc-root /usr/share/cups/doc-root none bind,ro 0 0): cannot create directory "/usr/share/cups/doc-root": permission denied
+update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/gimp/2.0/help /usr/share/gimp/2.0/help none bind,ro 0 0): cannot create directory "/usr/share/gimp/2.0": permission denied
+update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/libreoffice/help /usr/share/libreoffice/help none bind,ro 0 0): cannot create directory "/usr/share/libreoffice/help": permission denied
+update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/xubuntu-docs /usr/share/xubuntu-docs none bind,ro 0 0): cannot open directory "/var/lib": permission denied
+1669191541119	geckodriver	INFO	Listening on 127.0.0.1:47567
+1669191541376	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--headless" "--remote-debugging-port" "44833" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilew5ynpj"
+*** You are running in headless mode.
+Gtk-Message: 03:19:01.411: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+1669191542053	Marionette	INFO	Marionette enabled
+1669191542059	Marionette	INFO	Listening on port 36597
+Read port: 36597
+WebDriver BiDi listening on ws://127.0.0.1:44833
+1669191542244	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilew5ynpj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44833/devtools/browser/b9a425c6-a871-44b7-a120-0ceef18625e9
+1669191543938	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1670005913796	geckodriver	INFO	Listening on 127.0.0.1:40145
+1670005914204	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--headless" "--remote-debugging-port" "58691" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNIBxFp"
+*** You are running in headless mode.
+Gtk-Message: 13:31:54.237: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+1670005914822	Marionette	INFO	Marionette enabled
+1670005914828	Marionette	INFO	Listening on port 36951
+Read port: 36951
+WebDriver BiDi listening on ws://127.0.0.1:58691
+1670005915002	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNIBxFp/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58691/devtools/browser/b100f477-5fb8-46d4-9440-11e6f6bac815
+1670005916543	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
