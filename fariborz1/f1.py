@@ -95,7 +95,7 @@ ssinit()
 
 app = QApplication(sys.argv)
 W = MainWindow()
-wb = load_workbook(filename = 'f1.xlsx')
+wb = load_workbook(filename = '20.xlsx')
 ws = wb.active
 print (ws.max_row)
 print (ws.max_column)
